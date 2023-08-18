@@ -166,6 +166,8 @@ body {
     cursor: pointer;
     color: #A7A7A7;
     font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
     transition: background ease 0.2s;
 }
 .tabs .tab {
@@ -182,6 +184,10 @@ body {
     border-bottom: 2px solid #DB241B;
     color: #FFFFFF;
 }
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
 .product {
     display: flex;
     align-items: center;

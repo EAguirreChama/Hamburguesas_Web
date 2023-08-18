@@ -13,7 +13,7 @@ var swiper = new Swiper(".mySwiper-1", {
 });
 
 var swiper = new Swiper(".mySwiper-2", {
-    slidesPerView: 3,
+    slidesPerView:3,
     spaceBetween: 20,
     loop: true,
     loopFillGroupWithBlank: true,
@@ -30,7 +30,7 @@ var swiper = new Swiper(".mySwiper-2", {
         },
         950: {
             slidesPerView: 3,
-        },
+        }
     }
 });
 
